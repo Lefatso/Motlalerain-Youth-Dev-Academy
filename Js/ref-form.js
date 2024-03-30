@@ -335,23 +335,4 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-  //View The Images
-  $(document).ready(function () {
-
-    $(`[unique-script-id="w-w-dm-id"] .btn-box`).click(function () {
-        $(this).parent().children(".overlay").show();
-
-    });
-
-    $(`[unique-script-id="w-w-dm-id"] .close`).click(function () {
-        $(".overlay").hide();
-    });
-});
-
-/*--************************************COnditions Script***********************************-->*/
-const agreementCheckbox = document.getElementById('agreement');
-const submitButton = document.querySelector('button[type="submit"]');
-
-agreementCheckbox.addEventListener('change', function() {
-  submitButton.disabled = !this.checked;
-});
+  
