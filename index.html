@@ -400,7 +400,7 @@
 
                         <div class="share">
                             <a href="callto:+27780523799"><i class="bi bi-phone"></i></a>
-                            <a href="mailto:itumeleng.glan@gmail.com"><i class="bi bi-envelope"></i></a>
+                            <a href="mailto:itumelengbeng.glan@gmail.com"><i class="bi bi-envelope"></i></a>
                             <a href=""><i class="bi bi-whatsapp"></i></a>
                         </div>
 
@@ -529,6 +529,11 @@
                             <span>Phone Number</span>
                         </label>
 
+                        <label>
+                            <input name="ID Number" required="" placeholder="" type="text" class="input">
+                            <span>ID Number</span>
+                        </label>
+
                         <div class="flex">
                             <label>
                                 <input name="Yard-Number" required="" placeholder="" type="text" class="input">
@@ -543,6 +548,11 @@
                             <label>
                                 <input name="Zip-Code" required="" placeholder="" type="text" class="input">
                                 <span>Zip code</span>
+                            </label>
+
+                            <label>
+                                <input name="City/town" required="" placeholder="" type="text" class="input">
+                                <span>City/town</span>
                             </label>
                         </div>
                     </div>
@@ -563,7 +573,7 @@
                         </div>
 
                         <label>
-                            <input name="Parent-Email" required="" placeholder="" type="email" class="input">
+                            <input name="Parent-Email" placeholder="" type="email" class="input">
                             <span>Email</span>
                         </label>
 
@@ -573,23 +583,22 @@
                             <span>Phone Number</span>
                         </label>
 
-                        <!--************************************************Remove parents address***************-----
+                        <!--************************************************Remove parents address***************----- -->
                         <div class="flex">
                             <label>
-                                <input name="Parent-Yard-Number" required="" placeholder="" type="text" class="input">
-                                <span>Yard Number</span>
+                                <select name="Parent-Guardian" required="" class="input">
+                                    <option value="" selected disabled hidden>Select Parent/Guardian</option>
+                                    <option value="Parent">Parent</option>
+                                    <option value="Guardian">Guardian</option>
+                                </select>
+                              
                             </label>
-
+                            
                             <label>
-                                <input name="Parent-Section" required="" placeholder="" type="text" class="input">
-                                <span>Section</span>
+                                <input name="Parent-ID" required="" placeholder="" type="text" class="input">
+                                <span>Parent ID Number</span>
                             </label>
-
-                            <label>
-                                <input name="Parent-Zip-Code" required="" placeholder="" type="text" class="input">
-                                <span>Zip code</span>
-                            </label>
-                        </div> -->
+                        </div>
                     </div>
 
 
