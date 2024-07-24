@@ -1,5 +1,5 @@
 .timeline {
-<<<<<<< HEAD
+
     padding: 0px 5%;
     max-width: 1300px;
     margin: 0 auto;
@@ -203,7 +203,6 @@
     background-color:  rgba(0, 195, 255, 0.119);
     padding: 30px;
     
-=======
   padding: 0px 5%;
   max-width: 1300px;
   margin: 0 auto;
@@ -468,5 +467,5 @@
   vertical-align: middle;
   line-height: 50px;
   /* The same as your div height */
->>>>>>> master
+
 }
