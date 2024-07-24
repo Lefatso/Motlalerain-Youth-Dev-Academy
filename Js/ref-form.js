@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*document.addEventListener("DOMContentLoaded", function () {
     const formSections = document.querySelectorAll(".form-section");
     const previousBtn = document.querySelector(".previous");
@@ -208,6 +209,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 /*******************************New Test code  *********************************************/
+=======
+
+>>>>>>> master
 document.addEventListener("DOMContentLoaded", function () {
     const formSections = document.querySelectorAll(".form-section");
     const previousBtn = document.querySelector(".previous");
