@@ -1,0 +1,109 @@
+/*.parent {
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+  }
+  
+  .card {
+    padding-top: 50px;
+    /* border-radius: 10px; 
+    border: 3px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    background-color: #00c3ff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23efef3e' fill-opacity='0.97' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-size: 60px 60px;
+    background-position: 0 0, 0 0;
+    width: 100%;
+    box-shadow: rgba(142, 142, 142, 0.533) 0px 50px 50px -10px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover {
+    background-position: -100px 100px, -100px 100px;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+  }
+  
+  .content-box {
+    background: rgba(4, 193, 250, 0.732);
+    /* border-radius: 10px 100px 10px 10px; 
+    transition: all 0.5s ease-in-out;
+    padding: 60px 25px 25px 25px;
+    transform-style: preserve-3d;
+  }
+  
+  .content-box .card-title {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 50px);
+  }
+  
+  .content-box .card-title:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box .card-content {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #f2f2f2;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 30px);
+  }
+  
+  .content-box .card-content:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+  .content-box .see-more {
+    cursor: pointer;
+    margin-top: 1rem;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 9px;
+    text-transform: uppercase;
+    color: rgb(7, 185, 255);
+    /* border-radius: 5px; 
+    background: white;
+    padding: 0.5rem 0.7rem;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+  }
+  
+  .content-box .see-more:hover {
+    transform: translate3d(0px, 0px, 60px);
+  }
+  
+ /* .date-box {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    height: 60px;
+    width: 60px;
+    background: white;
+    border: 1px solid rgb(7, 185, 255);
+    /* border-radius: 10px; 
+    padding: 10px;
+    transform: translate3d(0px, 0px, 80px);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;
+  }
+  */
+ /* .date-box span {
+    display: block;
+    text-align: center;
+  }
+  
+  .date-box .month {
+    color: rgb(4, 193, 250);
+    font-size: 9px;
+    font-weight: 700;
+  }
+  
+  .date-box .date {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(4, 193, 250);
+  }*/
+   
